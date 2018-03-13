@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types'
 import {View, StyleSheet, Animated} from 'react-native';
-
-import Expo, { Svg } from 'expo';
+import Svg from 'react-native-svg';
 const AnimatedSvg = Animated.createAnimatedComponent(Svg);
 const {interpolate} = require('d3-interpolate');
 
